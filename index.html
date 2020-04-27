@@ -10,6 +10,14 @@
 </head>
 
 <body>
+  <div class="menu">
+    <div class="bar bar1"></div>
+    <div class="bar bar2"></div>
+    <div class="bar bar3"></div>
+    <i class="fas fa-times"></i>
+  </div>
+
+
 
   <div class="wrapper">
     <h2>Login Here</h2>
@@ -25,9 +33,14 @@
         <!-- Password Input & icon -->
         <i class="fa fa-lock"></i>
         <div class="password_input_box">
-          <input type="password" placeholder='password'>
+          <input id='myInput' type="password" placeholder='password'>
           <!-- Eye Icon -->
-          <i class="fas fa-eye"></i>
+          <div class="eye_icon_box">
+            <i class="fas fa-eye" title='hide password'></i>
+            <i class="fas fa-eye-slash" title='show password'></i>
+          </div>
+
+
 
         </div>
 
